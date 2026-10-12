@@ -3,6 +3,8 @@
 - Une fois le programme mis au point, poussez votre travail sur votre dépôt git et appelez l'enseignant avant de passer à l'exercice suivant."""
 
 def saisie():
+    name= sys.stdin.read()
+    print("\n Bonjour ", name)
     """Lecture depuis l'entrée standard"""
     return ""
 
